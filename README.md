@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Agentic Engineering Workbench + URL Shortener
 
 A local starter project built with Java 21, Spring Boot 3.5, Maven, Spring Data JPA, H2, and a single-page HTML/CSS/JavaScript dashboard.
@@ -82,3 +83,7 @@ The H2 database is file-based so data persists across application restarts. For 
 - The local deterministic planner is a fallback. For a production AI integration, add an authenticated provider adapter, structured output validation, authorization boundaries, secrets management, and human approval for risky actions.
 - H2 is appropriate for local development. Use PostgreSQL and migrations for a shared or production deployment.
 - If deployed behind a reverse proxy, configure forwarded headers and HTTPS correctly so generated short links use the public host and scheme.
+=======
+# agentic-engineering-workbench
+Spring Boot URL Shortener with Expiry, URL Analytics, and Agentic Workflow Dashboard
+>>>>>>> branch 'main' of https://github.com/kbnkishore223/agentic-engineering-workbench.git
